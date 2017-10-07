@@ -1,5 +1,4 @@
 var elixir = require('laravel-elixir');
-
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -13,5 +12,18 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass('app.scss');
-    mix.sass('homepage.scss');
+    mix.sass('homepage.scss');    
+
+    /* JQUERY */
+    mix.scripts([
+        '../../../node_modules/jquery/dist/jquery.min.js',
+        '../../../node_modules/bootstrap/dist/js/bootstrap.min.js',
+        '../../../node_modules/paper-kit-2/assets/js/paper-kit.js'
+    ], 'public/js/app.js');
+    
+    /* PAPER KIT */
+    mix.copy('node_modules/paper-kit-2/assets/fonts', 'public/fonts', false);
+    
+    /* FONT AWESOME */
+    mix.copy('node_modules/font-awesome/fonts', 'public/fonts', false);
 });
