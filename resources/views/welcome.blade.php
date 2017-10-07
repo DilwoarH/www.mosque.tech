@@ -33,12 +33,18 @@
             .title {
                 font-size: 96px;
             }
+
+            .title strong, p strong {
+                /* color: #009688; */
+                color: #E91E63;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">mosque<strong>.tech<strong></div>
+                <p>Collection of open source software for <strong>mosques</strong>.</p>
             </div>
         </div>
     </body>
