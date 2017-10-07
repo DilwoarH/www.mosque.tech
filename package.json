@@ -17,6 +17,7 @@
     "jquery": "^3.2.1",
     "laravel-elixir": "^5.0.0",
     "paper-kit-2": "^2.0.0",
-    "popper.js": "^1.12.5"
+    "popper.js": "^1.12.5",
+    "tooltip.js": "^1.1.5"
   }
 }

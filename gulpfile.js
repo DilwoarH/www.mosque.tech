@@ -16,7 +16,9 @@ elixir(function(mix) {
 
     /* JQUERY */
     mix.scripts([
-        '../../../node_modules/jquery/dist/jquery.min.js',
+        '../../../node_modules/jquery/dist/jquery.min.js',        
+        '../../../node_modules/popper.js/dist/umd/popper.min.js',        
+        '../../../node_modules/tooltip.js/dist/umd/tooltip.min.js',        
         '../../../node_modules/bootstrap/dist/js/bootstrap.min.js',
         '../../../node_modules/paper-kit-2/assets/js/paper-kit.js'
     ], 'public/js/app.js');

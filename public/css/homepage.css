@@ -1,1 +1,8 @@
-.title{font-size:96px}.title strong,p strong{color:#e91e63}
+.title {
+  font-size: 96px; }
+
+.title strong, p strong {
+  /* color: #009688; */
+  color: #E91E63; }
+
+/*# sourceMappingURL=homepage.css.map */
