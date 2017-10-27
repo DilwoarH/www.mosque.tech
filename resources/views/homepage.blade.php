@@ -12,15 +12,19 @@
             <div class="content">
                 <div class="title">mosque<strong>.tech<strong></div>
 
-                <div class="card" style="width: 20rem;">
-                    <div class="card-body">
-                        <h4 class="card-title">Wallboard</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Information screen for Mosque TV</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
+                <h3>Free Online Software</h3>
+                
+                @include('patterns.card', [
+                    'logo' => 'https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/brand-assets/Logos/0099ec3754bf473d2bbf317204ab6fea/trello-logo-blue.png',
+                    'title' => 'Trello',
+                    'subtitle' => 'Task Management Application',
+                    'description' => "Trello is the easy, free, flexible, and visual way to manage your projects and organize anything, trusted by millions of people from all over the world.",
+                    'link' => ['href' => "https://www.trello.com", 'label' => "Go to Trello"],
+                    'additional_link' => ['href' => "https://www.trello.com/pricing", 'label' => "Pricing"]
+                ])
+
+
+                
 
             </div>
         </div>
