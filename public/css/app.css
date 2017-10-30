@@ -12928,4 +12928,9 @@ textarea.form-control {
 .following img {
   max-width: 70px; }
 
+.card {
+  margin: 10px; }
+  .card .card-img-top {
+    max-width: 100px; }
+
 /*# sourceMappingURL=app.css.map */
