@@ -52,5 +52,34 @@
                 "label": "Demo"
             }
         ]
+    },
+    {
+        "logo": "/images/graph-commons.jpg",
+        "title": "Graph Commons",
+        "subtitle": "Map networks, together.",
+        "description": "Transform your data into interactive maps, untangle complex relations that impact you and your communities.",
+        "link":
+        {
+            "href": "https://graphcommons.com/",
+            "label": "Go to Graph Commons"
+        },
+        "additional_links":[
+            {
+                "href": "https://graphcommons.com/about",
+                "label": "About Graph Commons"
+            },
+            {
+                "href": "https://graphcommons.com/plans",
+                "label": "Pricing"
+            },
+            {
+                "href": "https://graphcommons.com/help",
+                "label": "Help"
+            },
+            {
+                "href": "https://graphcommons.com/graphs/new?onboard=true",
+                "label": "Demo"
+            }
+        ]
     }
 ]
