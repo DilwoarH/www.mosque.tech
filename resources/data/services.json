@@ -11,12 +11,20 @@
         },
         "additional_links": [
             {
+                "href": "https://www.trello.com/about",
+                "label": "About Trello"
+            },
+            {
                 "href": "https://www.trello.com/pricing",
                 "label": "Pricing"
             },
             {
                 "href": "http://help.trello.com/",
                 "label": "Help"
+            },
+            {
+                "href": "https://www.youtube.com/watch?v=xky48zyL9iA",
+                "label": "Demo"
             }
         ]
     },
@@ -38,6 +46,10 @@
             {
                 "href": "https://gsuite.google.com/learning-center/products/docs/",
                 "label": "Help"
+            },
+            {
+                "href": "https://www.youtube.com/watch?v=eRqUE6IHTEA",
+                "label": "Demo"
             }
         ]
     }
