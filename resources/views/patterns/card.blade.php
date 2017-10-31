@@ -18,11 +18,8 @@
             <a href="{{ $link['href'] or '#' }}" class="btn btn-info" target="_blank">{{ $link['label'] }}</a>
         @endif
         <hr>
-        @if( isset( $additional_link ) )
+        @foreach( $additional_links as $additional_link )
             <a href="{{ $additional_link['href'] or '#' }}" class="card-link" target="_blank">{{ $additional_link['label'] }}</a>
-        @endif
-        @if( isset( $help_link ) )
-            <a href="{{ $help_link['href'] or '#' }}" class="card-link" target="_blank">{{ $help_link['label'] }}</a>
-        @endif
+        @endforeach
     </div>
 </div>
